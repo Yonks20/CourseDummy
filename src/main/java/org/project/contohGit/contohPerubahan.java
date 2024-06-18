@@ -1,2 +1,4 @@
-package org.project.contohGit;public class contohPerubahan {
+package org.project.contohGit;
+
+public class contohPerubahan {
 }
