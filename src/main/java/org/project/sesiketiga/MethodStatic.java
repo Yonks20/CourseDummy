@@ -16,7 +16,7 @@ public class MethodStatic {
         /**
          * 3. Menggunakan method yang memiliki return value & parameter
          */
-        int number = printNumberWithParameter(10, "Azka");
+        int number = printNumberWithParameter(5, "Azka");
         System.out.println("Output number: " + number);
     }
 
@@ -24,6 +24,10 @@ public class MethodStatic {
         System.out.println("Hello World");
     }
 
+    /**
+     * Method yang memiliki return value?
+     * @return
+     */
     public static String printMyName() {
         String name = "Azka Hanifah";
         return name;
@@ -35,5 +39,13 @@ public class MethodStatic {
         } else {
             return 0;
         }
+    }
+
+    public static String printJudulBuku(String judul){
+        return "";
+    }
+
+    public static String printJudulBuku(String judul, int jumlah){
+        return "";
     }
 }

@@ -30,13 +30,15 @@ public class MethodNonStatic {
 
         //Panggil function printNumber(), jika ada kebutuhan ingin mengeluarkan output angka 1 ke console
         methodNonStatic.printNumber();
+        //tidak perlu pakai sout karena tidak ada return value
     }
 
     public String printMyName(String name) {
+
         return name;
     }
 
-    public void printNumber() {
+    public void printNumber(){
         System.out.println(1);
     }
 }
