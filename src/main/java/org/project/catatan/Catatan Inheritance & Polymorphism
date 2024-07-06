@@ -1,0 +1,29 @@
+INPUT
+=============================================================
+
+1. Alamat Pengiriman
+- Nama
+- Nomor Hp
+- Alamat yang dituju
+
+2. Informasi mengenai toko
+- Nama Toko
+- Variasi Barang
+- Foto Barang
+- Jumlah Barang yang dipesan
+- Harga
+
+3. Voucher Toko
+
+4. Metode Pengiriman
+- Jenis Pengiriman (instant, hemat, reguler)
+- Ongkos Pengiriman
+
+5. Catatan untuk penjual
+
+6. Metode Pembayaran
+- Nama abnak
+- Nominal yang akan ditransfer
+
+Proses/Logic Halaman Checkout
+- SATU CLASS UNTUK HADNLE LOGIC CHECKOUT
